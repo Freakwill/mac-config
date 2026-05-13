@@ -1,0 +1,16 @@
+# This is my personal configuration.
+
+# eval "$(ssh-agent -s)" >/dev/null
+# ssh-add ~/.ssh/myssh >/dev/null 2>&1
+# ssh-add ~/.ssh/myssh-gitee >/dev/null 2>&1
+
+alias python=python3
+alias pip=pip3
+alias pin='pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple'
+
+export EDITOR="vim"
+
+# to add scripts path
+PATH="$HOME/Scripts:$PATH"
+
+export PATH

@@ -29,9 +29,11 @@ brew install --cask visual-studio-code sublime-text zed texshop skim obsidian
 
 ## Optional
 
-# pip install sbcl ruby zig nim sbcl swi-prolog poetry luarocks sqlite ffmpeg nmap pandoc plantuml sphinx-doc graphviz docker
-# pip install openclaw zeroclaw notesmd-cli
-# brew install --cask neteasymusic cherry-studio lobehub tencent-meeting telegram-desktop mailmaster mark-text discord evernote baidunetdisk ubersicht thunder lyx latexit selfcontrol docker-desktop
+# brew install julia sbcl ruby zig nim sbcl swi-prolog poetry luarocks sqlite ffmpeg nmap pandoc plantuml sphinx-doc graphviz docker
+# brew install openclaw zeroclaw notesmd-cli
+# brew install --cask neteasymusic tencent-meeting telegram-desktop mailmaster ghostty discord evernote baidunetdisk ubersicht thunder lyx latexit mark-text docker-desktop rectangle moom downit selfcontrol
+# brew install --cask cherry-studio lobehub claude-code
+# npm install -g obsidian-headless
 
 ## path configure in `myprofile` (Optional)
 

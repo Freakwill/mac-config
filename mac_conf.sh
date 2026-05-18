@@ -1,6 +1,7 @@
 #!/bin/sh
 
 # Configuration for MacBook
+# run the script under `~`!
 
 ## Install Homebrew
 
@@ -13,25 +14,36 @@ fi
 
 ## Recommanded applications
 
-brew install zsh vim python warp    # strongly recommended to install
-# install omyzsh
+# brew install zsh vim curl # macos has installed the tools
+
+### strongly recommended to install
+brew install python neovim visual-studio-code
+brew install --cask warp raycast
+
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 # brew install zsh-syntax-highlighting zsh-completions # install plugins for zsh
 chsh -s $(which zsh)
 
-brew install ollama anomalyco/tap/opencode # strongly recommended for AI era
+### Strongly recommended for AI era
+brew install ollama anomalyco/tap/opencode
+brew install --cask doubao chatgpt
 
-brew install node go java lua rust git gh curl wget openssl gcc chromedriver mole neovim expect sshpass tree
+brew install node java go rust lua gcc git gh wget openssl expect sshpass pandoc tree mole
 
-brew install --cask wechat qq zoom google-chrome iina raycast skim keepingyouawake screenflow doubao chatgpt
+brew install --cask zoom wechat qq google-chrome iina keepingyouawake screenflow rectangle
 
-brew install --cask visual-studio-code sublime-text zed texshop skim obsidian
+brew install --cask sublime-text zed mactex texshop skim obsidian
+
+## Soft Links
+# [ -d /usr/local/bin ] || mkdir -p /usr/local/bin
+# HOMEBREW_BIN=/opt/homebrew/bin
+# sudo ln -s $HOMEBREW_BIN/python3.14 /usr/local/bin/python3
 
 ## Optional
 
-# brew install julia sbcl ruby zig nim sbcl swi-prolog poetry luarocks sqlite ffmpeg nmap pandoc plantuml sphinx-doc graphviz docker
+# brew install ruby julia zig nim sbcl swi-prolog luarocks plantuml sphinx-doc graphviz sqlite ffmpeg nmap poetry docker ghostty
 # brew install openclaw zeroclaw notesmd-cli
-# brew install --cask neteasymusic tencent-meeting telegram-desktop mailmaster ghostty discord evernote baidunetdisk ubersicht thunder lyx latexit mark-text docker-desktop rectangle moom downit selfcontrol
+# brew install --cask tencent-meeting telegram-desktop mailmaster ghostty discord evernote baidunetdisk neteasymusic ubersicht thunder lyx latexit moom docker-desktop selfcontrol
 # brew install --cask cherry-studio lobehub claude-code
 # npm install -g obsidian-headless
 
@@ -76,7 +88,7 @@ EOF
 
 ## configure pip
 
-cat >> .pip <<EOF
+cat >> .pip/pip.conf <<EOF
 [global]
 index-url = http://mirrors.aliyun.com/pypi/simple/
 

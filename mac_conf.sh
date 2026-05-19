@@ -44,7 +44,7 @@ brew install --cask sublime-text zed mactex texshop skim obsidian
 # brew install ruby julia zig nim sbcl swi-prolog luarocks plantuml sphinx-doc graphviz sqlite ffmpeg nmap poetry docker ghostty
 # brew install openclaw zeroclaw notesmd-cli
 # brew install --cask tencent-meeting telegram-desktop mailmaster ghostty discord evernote baidunetdisk neteasymusic ubersicht thunder lyx latexit moom docker-desktop selfcontrol
-# brew install --cask cherry-studio lobehub claude-code
+# brew install --cask cherry-studio lobehub claude-code opencode-desktop
 # npm install -g obsidian-headless
 
 ## path configure in `myprofile` (Optional)

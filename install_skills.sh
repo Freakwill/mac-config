@@ -44,6 +44,9 @@ add_skill https://github.com/parcadei/continuous-claude-v3 math
 add_skill https://github.com/shubhamsaboo/awesome-llm-apps python-expert
 add_skill https://github.com/wshobson/agents python-packaging
 
+# add_skill https://github.com/ailabs-393/ai-labs-claude-skills nutritional-specialist
+# add_skill https://github.com/ailabs-393/ai-labs-claude-skills personal-assistant
+# add_skill https://github.com/ailabs-393/ai-labs-claude-skills travel-planner
 # add_skill https://github.com/geeks-accelerator/in-bed-ai love
 # add_skill https://github.com/supercent-io/skills-template workflow-automation
 # add_skill https://github.com/supercent-io/skills-template data-analysis

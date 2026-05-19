@@ -44,6 +44,9 @@ add_skill https://github.com/parcadei/continuous-claude-v3 math
 add_skill https://github.com/shubhamsaboo/awesome-llm-apps python-expert
 add_skill https://github.com/wshobson/agents python-packaging
 
+# add_skill https://github.com/anthropics/skills pdf
+# add_skill https://github.com/jeffallan/claude-skills golang-pro
+# add_skill https://github.com/0xbigboss/claude-code zig-best-practices
 # add_skill https://github.com/ailabs-393/ai-labs-claude-skills nutritional-specialist
 # add_skill https://github.com/ailabs-393/ai-labs-claude-skills personal-assistant
 # add_skill https://github.com/ailabs-393/ai-labs-claude-skills travel-planner
@@ -61,6 +64,8 @@ add_skill https://github.com/wshobson/agents python-packaging
 # add_skill https://github.com/thebushidocollective/han tensorflow-neural-networks
 # add_skill https://github.com/mindrally/skills scikit-learn-best-practices
 # add_skill https://github.com/rysweet/amplihack psychologist-analyst
+# add_skill https://github.com/rysweet/amplihack philosopher-analyst
+# add_skill https://github.com/chrislemke/stoffy philosophy-of-mind
 # add_skill https://github.com/mims-harvard/tooluniverse tooluniverse-neuroscience
 
 echo "Skill installation process completed."

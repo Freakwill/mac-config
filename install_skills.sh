@@ -12,15 +12,20 @@
 add_skill() {
     local url="$1"
     local skill="$2"
-    
-    echo "Installing skill '$skill' from $url..."
-    npx skills add "$url" --skill "$skill" -y -a opencode
-    
-    # Check if the command was successful
-    if [ $? -eq 0 ]; then
-        echo "Successfully installed skill '$skill'"
+    if [ -z "$skill" ]; then
+        local skill_rep="all skills"
+        echo "Installing skills from $url..."
+        npx skills add "$url" --all -y -a opencode
     else
-        echo "Failed to install skill '$skill'"
+        local skill_rep="$skill"
+        echo "Installing skills from $url..."
+        npx skills add "$url" --skill "$skill" -y -a opencode
+    fi
+
+    if [ $? -eq 0 ]; then
+        echo "Successfully installed $skill_rep."
+    else
+        echo "Failed to install $skill_rep."
     fi
 }
 
@@ -39,6 +44,7 @@ add_skill https://github.com/parcadei/continuous-claude-v3 math
 add_skill https://github.com/shubhamsaboo/awesome-llm-apps python-expert
 add_skill https://github.com/wshobson/agents python-packaging
 
+# add_skill https://github.com/geeks-accelerator/in-bed-ai love
 # add_skill https://github.com/supercent-io/skills-template workflow-automation
 # add_skill https://github.com/supercent-io/skills-template data-analysis
 # add_skill https://github.com/anthropics/knowledge-work-plugins data-visualization

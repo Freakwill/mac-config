@@ -41,10 +41,10 @@ brew install --cask sublime-text zed mactex texshop skim obsidian
 
 ## Optional
 
-# brew install ruby julia zig nim sbcl swi-prolog luarocks plantuml sphinx-doc graphviz sqlite ffmpeg nmap poetry docker ghostty
-# brew install openclaw zeroclaw notesmd-cli
-# brew install --cask tencent-meeting telegram-desktop mailmaster ghostty discord evernote baidunetdisk neteasymusic ubersicht thunder lyx latexit moom docker-desktop selfcontrol
-# brew install --cask cherry-studio lobehub claude-code opencode-desktop
+# brew install ruby julia zig nim sbcl swi-prolog luarocks plantuml sphinx-doc graphviz sqlite ffmpeg nmap poetry docker
+# brew install openclaw zeroclaw notesmd-cli codex
+# brew install --cask tencent-meeting telegram-desktop discord mailmaster ghostty evernote baidunetdisk neteasymusic ubersicht thunder lyx latexit docker-desktop selfcontrol
+# brew install --cask cherry-studio lobehub claude-code opencode-desktop codex-app
 # npm install -g obsidian-headless
 
 ## path configure in `myprofile` (Optional)

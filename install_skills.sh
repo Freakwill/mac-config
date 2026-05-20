@@ -43,10 +43,14 @@ add_skill https://github.com/sundial-org/awesome-openclaw-skills arxiv-watcher
 add_skill https://github.com/parcadei/continuous-claude-v3 math
 add_skill https://github.com/shubhamsaboo/awesome-llm-apps python-expert
 add_skill https://github.com/wshobson/agents python-packaging
+add_skill https://github.com/anthropics/skills pdf
+add_skill https://github.com/anthropics/knowledge-work-plugins code-review
 
-# add_skill https://github.com/anthropics/skills pdf
+# add_skill https://github.com/mindrally/skills web-scraping
+# add_skill https://github.com/mindrally/skills fastapi-python
 # add_skill https://github.com/jeffallan/claude-skills golang-pro
 # add_skill https://github.com/0xbigboss/claude-code zig-best-practices
+# add_skill https://github.com/jeffallan/claude-skills cpp-pro
 # add_skill https://github.com/ailabs-393/ai-labs-claude-skills nutritional-specialist
 # add_skill https://github.com/ailabs-393/ai-labs-claude-skills personal-assistant
 # add_skill https://github.com/ailabs-393/ai-labs-claude-skills travel-planner
